@@ -1,0 +1,15 @@
+{
+    "name": "reminders.yomen",
+    "description": "A simple app for creating and managing reminders on your phone.",
+    "architecture": "@CLICK_ARCH@",
+    "title": "Reminders",
+    "hooks": {
+        "reminders": {
+            "apparmor": "reminders.apparmor",
+            "desktop":  "reminders.desktop"
+        }
+    },
+    "version": "1.0.0",
+    "maintainer": "Yomen Tohmaz <yomen.tohmaz@gmail.com>",
+    "framework" : "@CLICK_FRAMEWORK@"
+}
